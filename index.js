@@ -3,7 +3,7 @@ CORS Anywhere as a Cloudflare Worker!
 (c) 2019 by Zibri (www.zibri.org)
 email: zibri AT zibri DOT org
 https://github.com/Zibri/cloudflare-cors-anywhere
-
+t
 This Cloudflare Worker script acts as a CORS proxy that allows
 cross-origin resource sharing for specified origins and URLs.
 It handles OPTIONS preflight requests and modifies response headers accordingly to enable CORS.
