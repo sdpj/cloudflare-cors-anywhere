@@ -118,8 +118,8 @@ addEventListener("fetch", async event => {
                 return new Response(responseBody, responseInit);
 
             } else {
-                const responseHeaders = new Headers();
-                responseHeaders = setupCORSHeaders(responseHeaders);
+                let responseHeaders = new Headers();
+                let responseHeaders = setupCORSHeaders(responseHeaders);
 
                 let country = false;
                 let colo = false;
